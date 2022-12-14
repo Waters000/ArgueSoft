@@ -1,0 +1,6 @@
+framework module Pods_ArgueSoft {
+  umbrella header "Pods-ArgueSoft-umbrella.h"
+
+  export *
+  module * { export * }
+}

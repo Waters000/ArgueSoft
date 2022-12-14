@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tip3</key>
+	<dict>
+		<key>title</key>
+		<string>Feeback and Criticism are apart of Life.</string>
+		<key>done</key>
+		<false/>
+	</dict>
+	<key>Tip2</key>
+	<dict>
+		<key>title</key>
+		<string>Breathe, you are Valuable and Loved.</string>
+		<key>done</key>
+		<false/>
+	</dict>
+	<key>Tip1</key>
+	<dict>
+		<key>title</key>
+		<string>Look at Nature for 2 min.</string>
+		<key>done</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

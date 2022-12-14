@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5931FE05293FF79100016137 /* preloadedData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5931FE04293FF79100016137 /* preloadedData.plist */; };
+		5972F015292945ED00066A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5972F014292945ED00066A08 /* AppDelegate.swift */; };
+		5972F017292945ED00066A08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5972F016292945ED00066A08 /* SceneDelegate.swift */; };
+		5972F019292945ED00066A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5972F018292945ED00066A08 /* ViewController.swift */; };
+		5972F01C292945ED00066A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5972F01A292945ED00066A08 /* Main.storyboard */; };
+		5972F01F292945ED00066A08 /* ArgueSoft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5972F01D292945ED00066A08 /* ArgueSoft.xcdatamodeld */; };
+		5972F021292945EF00066A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5972F020292945EF00066A08 /* Assets.xcassets */; };
+		5972F024292945EF00066A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5972F022292945EF00066A08 /* LaunchScreen.storyboard */; };
+		5972F037292C1D8F00066A08 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F02E292C1D8F00066A08 /* 4.wav */; };
+		5972F038292C1D8F00066A08 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F02F292C1D8F00066A08 /* 7.wav */; };
+		5972F039292C1D8F00066A08 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F030292C1D8F00066A08 /* 3.wav */; };
+		5972F03A292C1D8F00066A08 /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F031292C1D8F00066A08 /* 0.wav */; };
+		5972F03B292C1D8F00066A08 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F032292C1D8F00066A08 /* 2.wav */; };
+		5972F03C292C1D8F00066A08 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F033292C1D8F00066A08 /* 5.wav */; };
+		5972F03D292C1D8F00066A08 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F034292C1D8F00066A08 /* 6.wav */; };
+		5972F03E292C1D8F00066A08 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F035292C1D8F00066A08 /* 1.wav */; };
+		5972F03F292C1D8F00066A08 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5972F036292C1D8F00066A08 /* 8.wav */; };
+		5972F041292D823200066A08 /* arguesoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 5972F040292D823200066A08 /* arguesoft.png */; };
+		5972F0892938000700066A08 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5972F0882938000700066A08 /* TodoListViewController.swift */; };
+		59DFF37D2946751300C410AA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFF37C2946751300C410AA /* Config.swift */; };
+		59DFF3812947D7EB00C410AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59DFF3802947D7EB00C410AA /* GoogleService-Info.plist */; };
+		C7DF6D6339FB5DBE6E475400 /* Pods_ArgueSoft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BB24B0F36131AEF31A9563 /* Pods_ArgueSoft.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5931FE04293FF79100016137 /* preloadedData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = preloadedData.plist; sourceTree = "<group>"; };
+		5972F011292945ED00066A08 /* ArgueSoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgueSoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5972F014292945ED00066A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5972F016292945ED00066A08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5972F018292945ED00066A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5972F01B292945ED00066A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5972F01E292945ED00066A08 /* ArgueSoft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArgueSoft.xcdatamodel; sourceTree = "<group>"; };
+		5972F020292945EF00066A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5972F023292945EF00066A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5972F025292945EF00066A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5972F02E292C1D8F00066A08 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 4.wav; path = ../../../../sounds/4.wav; sourceTree = "<group>"; };
+		5972F02F292C1D8F00066A08 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 7.wav; path = ../../../../sounds/7.wav; sourceTree = "<group>"; };
+		5972F030292C1D8F00066A08 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 3.wav; path = ../../../../sounds/3.wav; sourceTree = "<group>"; };
+		5972F031292C1D8F00066A08 /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 0.wav; path = ../../../../sounds/0.wav; sourceTree = "<group>"; };
+		5972F032292C1D8F00066A08 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 2.wav; path = ../../../../sounds/2.wav; sourceTree = "<group>"; };
+		5972F033292C1D8F00066A08 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 5.wav; path = ../../../../sounds/5.wav; sourceTree = "<group>"; };
+		5972F034292C1D8F00066A08 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 6.wav; path = ../../../../sounds/6.wav; sourceTree = "<group>"; };
+		5972F035292C1D8F00066A08 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 1.wav; path = ../../../../sounds/1.wav; sourceTree = "<group>"; };
+		5972F036292C1D8F00066A08 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 8.wav; path = ../../../../sounds/8.wav; sourceTree = "<group>"; };
+		5972F040292D823200066A08 /* arguesoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arguesoft.png; path = ../../../arguesoft.png; sourceTree = "<group>"; };
+		5972F0882938000700066A08 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		59DFF37C2946751300C410AA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		59DFF3802947D7EB00C410AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59E5FF3029413DBD009BB7C9 /* preloadedData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = preloadedData.plist; path = "ArgueSoft/Data Model/preloadedData.plist"; sourceTree = "<group>"; };
+		920714A36DCCE88BB0F65896 /* Pods-ArgueSoft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArgueSoft.debug.xcconfig"; path = "Target Support Files/Pods-ArgueSoft/Pods-ArgueSoft.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BB24B0F36131AEF31A9563 /* Pods_ArgueSoft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArgueSoft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D856948628DC91B1B37EC2 /* Pods-ArgueSoft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArgueSoft.release.xcconfig"; path = "Target Support Files/Pods-ArgueSoft/Pods-ArgueSoft.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5972F00E292945ED00066A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF6D6339FB5DBE6E475400 /* Pods_ArgueSoft.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A46E8705952DBFC5DE5704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				920714A36DCCE88BB0F65896 /* Pods-ArgueSoft.debug.xcconfig */,
+				C9D856948628DC91B1B37EC2 /* Pods-ArgueSoft.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		594ED1D5293D381100FA253A /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				5972F01D292945ED00066A08 /* ArgueSoft.xcdatamodeld */,
+				5931FE04293FF79100016137 /* preloadedData.plist */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		594ED1D6293D384C00FA253A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5972F018292945ED00066A08 /* ViewController.swift */,
+				5972F0882938000700066A08 /* TodoListViewController.swift */,
+				59DFF37C2946751300C410AA /* Config.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		594ED1D7293D387600FA253A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5972F01A292945ED00066A08 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		594ED1D8293D388600FA253A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5972F020292945EF00066A08 /* Assets.xcassets */,
+				5972F022292945EF00066A08 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5972F008292945ED00066A08 = {
+			isa = PBXGroup;
+			children = (
+				59E5FF3029413DBD009BB7C9 /* preloadedData.plist */,
+				59DFF3802947D7EB00C410AA /* GoogleService-Info.plist */,
+				5972F013292945ED00066A08 /* ArgueSoft */,
+				5972F012292945ED00066A08 /* Products */,
+				35A46E8705952DBFC5DE5704 /* Pods */,
+				DF6A6D639315E785C56C942E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5972F012292945ED00066A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5972F011292945ED00066A08 /* ArgueSoft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5972F013292945ED00066A08 /* ArgueSoft */ = {
+			isa = PBXGroup;
+			children = (
+				5972F014292945ED00066A08 /* AppDelegate.swift */,
+				5972F016292945ED00066A08 /* SceneDelegate.swift */,
+				594ED1D6293D384C00FA253A /* Controllers */,
+				594ED1D5293D381100FA253A /* Data Model */,
+				594ED1D7293D387600FA253A /* Views */,
+				594ED1D8293D388600FA253A /* Supporting Files */,
+				5972F025292945EF00066A08 /* Info.plist */,
+				5972F040292D823200066A08 /* arguesoft.png */,
+				5972F02B292950C800066A08 /* Sounds */,
+			);
+			path = ArgueSoft;
+			sourceTree = "<group>";
+		};
+		5972F02B292950C800066A08 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5972F035292C1D8F00066A08 /* 1.wav */,
+				5972F032292C1D8F00066A08 /* 2.wav */,
+				5972F030292C1D8F00066A08 /* 3.wav */,
+				5972F02E292C1D8F00066A08 /* 4.wav */,
+				5972F033292C1D8F00066A08 /* 5.wav */,
+				5972F034292C1D8F00066A08 /* 6.wav */,
+				5972F02F292C1D8F00066A08 /* 7.wav */,
+				5972F036292C1D8F00066A08 /* 8.wav */,
+				5972F031292C1D8F00066A08 /* 0.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DF6A6D639315E785C56C942E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB24B0F36131AEF31A9563 /* Pods_ArgueSoft.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5972F010292945ED00066A08 /* ArgueSoft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5972F028292945EF00066A08 /* Build configuration list for PBXNativeTarget "ArgueSoft" */;
+			buildPhases = (
+				81DBB09975B8E8764F581BC3 /* [CP] Check Pods Manifest.lock */,
+				5972F00D292945ED00066A08 /* Sources */,
+				5972F00E292945ED00066A08 /* Frameworks */,
+				5972F00F292945ED00066A08 /* Resources */,
+				5BB2AC2C5BA1C65504E95AC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgueSoft;
+			productName = ArgueSoft;
+			productReference = 5972F011292945ED00066A08 /* ArgueSoft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5972F009292945ED00066A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5972F010292945ED00066A08 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 5972F00C292945ED00066A08 /* Build configuration list for PBXProject "ArgueSoft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5972F008292945ED00066A08;
+			productRefGroup = 5972F012292945ED00066A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5972F010292945ED00066A08 /* ArgueSoft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5972F00F292945ED00066A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5972F03D292C1D8F00066A08 /* 6.wav in Resources */,
+				5972F03B292C1D8F00066A08 /* 2.wav in Resources */,
+				59DFF3812947D7EB00C410AA /* GoogleService-Info.plist in Resources */,
+				5972F039292C1D8F00066A08 /* 3.wav in Resources */,
+				5972F03C292C1D8F00066A08 /* 5.wav in Resources */,
+				5972F038292C1D8F00066A08 /* 7.wav in Resources */,
+				5972F03A292C1D8F00066A08 /* 0.wav in Resources */,
+				5972F041292D823200066A08 /* arguesoft.png in Resources */,
+				5972F03E292C1D8F00066A08 /* 1.wav in Resources */,
+				5972F024292945EF00066A08 /* LaunchScreen.storyboard in Resources */,
+				5972F021292945EF00066A08 /* Assets.xcassets in Resources */,
+				5972F03F292C1D8F00066A08 /* 8.wav in Resources */,
+				5972F01C292945ED00066A08 /* Main.storyboard in Resources */,
+				5972F037292C1D8F00066A08 /* 4.wav in Resources */,
+				5931FE05293FF79100016137 /* preloadedData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB2AC2C5BA1C65504E95AC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArgueSoft/Pods-ArgueSoft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArgueSoft/Pods-ArgueSoft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArgueSoft/Pods-ArgueSoft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DBB09975B8E8764F581BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArgueSoft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5972F00D292945ED00066A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5972F019292945ED00066A08 /* ViewController.swift in Sources */,
+				5972F015292945ED00066A08 /* AppDelegate.swift in Sources */,
+				5972F01F292945ED00066A08 /* ArgueSoft.xcdatamodeld in Sources */,
+				5972F017292945ED00066A08 /* SceneDelegate.swift in Sources */,
+				5972F0892938000700066A08 /* TodoListViewController.swift in Sources */,
+				59DFF37D2946751300C410AA /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5972F01A292945ED00066A08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5972F01B292945ED00066A08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5972F022292945EF00066A08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5972F023292945EF00066A08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5972F026292945EF00066A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5972F027292945EF00066A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5972F029292945EF00066A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920714A36DCCE88BB0F65896 /* Pods-ArgueSoft.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976LJ9V4J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArgueSoft/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow Microphone to continue with app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArgueSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5972F02A292945EF00066A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D856948628DC91B1B37EC2 /* Pods-ArgueSoft.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 976LJ9V4J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArgueSoft/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow Microphone to continue with app";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArgueSoft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5972F00C292945ED00066A08 /* Build configuration list for PBXProject "ArgueSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5972F026292945EF00066A08 /* Debug */,
+				5972F027292945EF00066A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5972F028292945EF00066A08 /* Build configuration list for PBXNativeTarget "ArgueSoft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5972F029292945EF00066A08 /* Debug */,
+				5972F02A292945EF00066A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5972F01D292945ED00066A08 /* ArgueSoft.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5972F01E292945ED00066A08 /* ArgueSoft.xcdatamodel */,
+			);
+			currentVersion = 5972F01E292945ED00066A08 /* ArgueSoft.xcdatamodel */;
+			path = ArgueSoft.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5972F009292945ED00066A08 /* Project object */;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to ArgueSoft" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcI-MV-UIw">
+                                <rect key="frame" x="16" y="106" width="361" height="124"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="arguesoft.png" translatesAutoresizingMaskIntoConstraints="NO" id="acz-bf-gic">
+                                <rect key="frame" x="0.0" y="250" width="393" height="526"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tcI-MV-UIw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="1NR-4P-ukm"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="top" secondItem="tcI-MV-UIw" secondAttribute="bottom" constant="20" id="1tv-JJ-baY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="acz-bf-gic" secondAttribute="bottom" constant="42" id="2V4-C9-aAV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="acz-bf-gic" secondAttribute="bottom" constant="42" id="4Az-IP-wgD"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7ar-99-x4r"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Ss-el-mT5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="acz-bf-gic" secondAttribute="bottom" constant="42" id="9gl-ps-Qh3"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="top" secondItem="tcI-MV-UIw" secondAttribute="bottom" constant="20" id="Adb-Wa-a3O"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Pft-WD-F7z"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WYF-Ta-RbM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tcI-MV-UIw" secondAttribute="trailing" constant="16" id="YSd-o3-89w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="acz-bf-gic" secondAttribute="bottom" constant="42" id="c3L-X6-Om5"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="top" secondItem="tcI-MV-UIw" secondAttribute="bottom" constant="20" id="fBm-Xp-cIx"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fms-q3-kl3"/>
+                            <constraint firstItem="tcI-MV-UIw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jm3-YJ-haq"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lds-xo-1p9"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lup-c9-sRQ"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nr8-sg-7nN"/>
+                            <constraint firstItem="acz-bf-gic" firstAttribute="top" secondItem="tcI-MV-UIw" secondAttribute="bottom" constant="20" id="wVZ-h8-oW6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arguesoft.png" width="1280" height="892"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
